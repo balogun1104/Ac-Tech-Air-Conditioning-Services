@@ -32,6 +32,10 @@ export const Contact = (props) => {
         }
       )
   }
+
+  let date = new Date();
+  let year = date.getFullYear();
+
   return (
     <div>
       <div id='contact'>
@@ -150,10 +154,7 @@ export const Contact = (props) => {
       <div id='footer'>
         <div className='container text-center'>
           <p>
-            &copy; 2020 Issaaf Kattan React Land Page Template. Design by{' '}
-            <a href='http://www.templatewire.com' rel='nofollow'>
-              TemplateWire
-            </a>
+            &copy; Copyright © {year} ℝ𝔹{' '}
           </p>
         </div>
       </div>
