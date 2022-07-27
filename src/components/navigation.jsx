@@ -1,4 +1,8 @@
+import img from './assest/ac-tech.png';
+import classes from './navigation.module.css'
+
 export const Navigation = (props) => {
+
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
@@ -16,8 +20,9 @@ export const Navigation = (props) => {
             <span className='icon-bar'></span>{' '}
           </button>
           <a className='navbar-brand page-scroll' href='#page-top'>
-           Ac-Tech
+        
           </a>{' '}
+          <img src={img} alt="ac-tech" className={classes.logo} />
         </div>
 
         <div
